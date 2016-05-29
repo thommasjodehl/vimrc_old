@@ -11,3 +11,9 @@ set relativenumber
 set nocp
 filetype plugin on
 let g:netrw_liststyle=3
+
+" Window navigation
+nmap <silent> <A-Up> :wincmd k<CR>
+nmap <silent> <A-Down> :wincmd j<CR>
+nmap <silent> <A-Left> :wincmd h<CR>
+nmap <silent> <A-Right> :wincmd l<CR>
