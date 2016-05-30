@@ -1,5 +1,6 @@
 " Colorscheme settings
 colo SolarizedDark_mod_twj 
+syntax on
 
 " Font settings
 set guifont=Consolas:h12:b
