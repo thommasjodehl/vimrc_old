@@ -7,4 +7,10 @@ On first time setup, remember to install git and curl as
 described in the Vundle repo on github and follow the
 installation procedure of Vundle in general.
 
+To install Ag properly, the search engine "The Silver Searcher"
+must be installed. See the github repo for the "The Silver Searcher"
+on how to install on Windows.
+
+For Ag installation, see the Ag github repo.
+
 /thommasjodehl
