@@ -14,6 +14,10 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'ctrlpvim/ctrlp.vim'
 " Ag plugin
 Plugin 'rking/ag.vim'
+" Vim-indent-guides plugin
+Plugin 'nathanaelkane/vim-indent-guides'
+" Airline plugin
+Plugin 'vim-airline/vim-airline'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -35,10 +39,11 @@ colo SolarizedDark_mod_twj
 syntax on
 
 " Font settings
-set guifont=Consolas:h12:b
+set guifont=Consolas:h11:b
 
 " Relative line numbers
 set relativenumber
+set number
 
 " Netrw settings
 set nocp
@@ -61,3 +66,13 @@ let g:ctrlp_working_path_mode = 0
 
 " Disable auto indent
 filetype indent off
+
+" Indent-guides plugin settings
+let g:indent_guides_guide_size = 8
+
+" In file search settings, if uppercase letters is used,
+" the search is case sensitive.
+set smartcase
+
+" Airline plugin settings
+set laststatus=2
