@@ -13,4 +13,7 @@ on how to install on Windows.
 
 For Ag installation, see the Ag github repo.
 
+TODO: Update this file more.
+TODO: Instead of committing the plugin folders, they should be implemented as submodules.
+
 /thommasjodehl

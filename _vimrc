@@ -18,6 +18,8 @@ Plugin 'rking/ag.vim'
 Plugin 'nathanaelkane/vim-indent-guides'
 " Airline plugin
 Plugin 'vim-airline/vim-airline'
+" Syntastic plugin
+Plugin 'scrooloose/syntastic'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -33,6 +35,10 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
+
+" Support of special characters
+scriptencoding utf-8
+set encoding=utf-8
 
 " Colorscheme settings
 colo SolarizedDark_mod_twj 
@@ -76,3 +82,17 @@ set smartcase
 
 " Airline plugin settings
 set laststatus=2
+
+" Syntastic settings
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+" Invisible characters and toggle of them
+set listchars=tab:»\ ,eol:¬
+set list!
