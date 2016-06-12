@@ -1,9 +1,9 @@
-1.0 SYNOPSIS
+#My vimrc config
 
 This is my personal vimrc settings. You may steal all you want
 from this repo.
 
-On first time setup, remember to install git and curl as
+On first time setup(in Windows), remember to install git and curl as
 described in the Vundle repo on github and follow the
 installation procedure of Vundle in general.
 
@@ -13,7 +13,8 @@ on how to install on Windows.
 
 For Ag installation, see the Ag github repo.
 
-TODO: Update this file more.
+TODO: Update this file more often.
+
 TODO: Instead of committing the plugin folders, they should be implemented as submodules.
 
 /thommasjodehl
